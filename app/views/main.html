@@ -7,3 +7,11 @@
         <h2 class="win-h2">Maximum Rating: {{maxRating}}</h2>
         <input class="win-slider" type="range" min="1" max="50" ng-model="maxRating" />
     </div>
+        <br>
+    <win-date-picker current="date" on-change="dateChanged()"></win-date-picker>
+    <br><br><br><br>
+    <button id="flyoutAnchor">Flyout!</button>
+<win-flyout anchor="'#flyoutAnchor'">Happy coding!</win-flyout>
+    <br><br><br><br>
+
+<win-time-picker current="time"></win-time-picker>
