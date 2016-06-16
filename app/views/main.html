@@ -1,0 +1,9 @@
+<win-rating max-rating="maxRating" user-rating="rating"></win-rating>
+    <div>
+        <h2 class="win-h2">Rating: {{rating}}</h2>
+        <input class="win-slider" type="range" min="1" max="{{maxRating}}" ng-model="rating" />
+    </div>
+    <div>
+        <h2 class="win-h2">Maximum Rating: {{maxRating}}</h2>
+        <input class="win-slider" type="range" min="1" max="50" ng-model="maxRating" />
+    </div>
